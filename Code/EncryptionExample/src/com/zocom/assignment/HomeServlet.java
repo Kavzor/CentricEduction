@@ -13,8 +13,6 @@ import com.zocom.assignment.service.HttpRoute;
 
 @WebServlet(urlPatterns = "/home/*")
 public class HomeServlet extends BaseServlet {
-	
-	
 
 	@Override
 	public void init() throws ServletException {
