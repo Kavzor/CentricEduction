@@ -1,12 +1,14 @@
-**/.metadata
-**/bin/
+Code/.metadata
+Code/RemoteSystemTempFiles
+Code/Servers
+Code/*/bin/
 **/tmp/
 **/*.tmp
 **/*.bak
 **/*.swp
 **/*~.nib
 **/local.properties
-**/.settings/
+Code/*/.settings/
 **/.loadpath
 **/.recommenders
 
