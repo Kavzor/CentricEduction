@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1734388690.index
+2388346736.index
+2751989791.index
+117524683.index
+2630375847.index

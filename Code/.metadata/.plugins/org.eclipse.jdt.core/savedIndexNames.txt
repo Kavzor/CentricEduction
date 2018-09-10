@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.jdt.core
+117524683.index
+300331013.index
+2781984027.index

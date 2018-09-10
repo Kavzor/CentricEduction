@@ -1,0 +1,9 @@
+127.0.0.1 - - [10/Sep/2018:15:26:35 +0200] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:26:36 +0200] "GET /EncryptionExample/ HTTP/1.1" 404 1095
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:26:41 +0200] "GET /EncryptionExample/home HTTP/1.1" 404 1099
+127.0.0.1 - - [10/Sep/2018:15:27:26 +0200] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:27:26 +0200] "GET /EncryptionExample/home HTTP/1.1" 200 844
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:27:31 +0200] "POST /EncryptionExample/home/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:27:32 +0200] "GET /EncryptionExample/profile HTTP/1.1" 200 609
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:27:32 +0200] "POST /EncryptionExample/profile/delete HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2018:15:27:32 +0200] "GET /EncryptionExample/home HTTP/1.1" 200 844
