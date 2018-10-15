@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\EncryptionExample" path="/EncryptionExample" reloadable="true" source="org.eclipse.jst.jee.server:EncryptionExample"/></Host>
+      <Context docBase="C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\EncryptionExample" path="/EncryptionExample" reloadable="true" source="org.eclipse.jst.jee.server:EncryptionExample"/><Context docBase="C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\LoginExample" path="/LoginExample" reloadable="true" source="org.eclipse.jst.jee.server:LoginExample"/><Context docBase="C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringExample" path="/SpringExample" reloadable="true" source="org.eclipse.jst.jee.server:SpringExample"/></Host>
     </Engine>
   </Service>
 </Server>
