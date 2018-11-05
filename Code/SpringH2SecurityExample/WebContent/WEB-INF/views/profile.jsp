@@ -9,7 +9,8 @@
 <body>
 
 	<p>Hello ${ user.username }
-	<p>You have logged in ${ user.loginCounter }
+	<p>You have logged in ${ user.loginCounter } times
+	<p>You live at ${ user.residence }
 	<br>
 	
 	<form action="logout" method="POST">

@@ -11,20 +11,28 @@ import javax.persistence.Table;
 @Table
 public class User {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	private int loginCounter;
+	private String residence;
 	
 	private String username;
 	private String password;
 	
-	
+	public String getResidence() {
+		return residence;
+	}
+
+	public void setResidence(String residence) {
+		this.residence = residence;
+	}
+
 	public Long getId() {
 		return id;
 	}
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	public void setId(Long id) {
 		this.id = id;
 	}

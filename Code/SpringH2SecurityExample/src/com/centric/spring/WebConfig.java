@@ -34,7 +34,7 @@ public class WebConfig extends WebSecurityConfigurerAdapter implements WebMvcCon
 		http.
 			csrf().disable().
 			authorizeRequests().
-				antMatchers("/", "/home", "/register").permitAll().
+				antMatchers("/", "/home", "/register", "/api/**").permitAll().
 				anyRequest().authenticated().
 				and().
 			formLogin().
@@ -60,5 +60,4 @@ public class WebConfig extends WebSecurityConfigurerAdapter implements WebMvcCon
 	public PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
-	
 }

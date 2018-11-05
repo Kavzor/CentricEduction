@@ -3,6 +3,8 @@ C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.
 \LoginExample\src
 C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\925679173.index
 \SpringH2SecurityExample\src
+C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3477721723.index
+\SpringRestExample\src
 C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\672903219.index
 \SpringExample\src
 C:\dev\github\Centric-master\Centric-master\Code\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2777443145.index
