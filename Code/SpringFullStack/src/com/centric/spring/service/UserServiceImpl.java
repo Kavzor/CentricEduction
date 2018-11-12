@@ -1,0 +1,65 @@
+package com.centric.spring.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.centric.spring.repository.User;
+import com.centric.spring.repository.UserRepository;
+
+@Service("userService")
+public class UserServiceImpl implements UserService {
+	
+	
+	//@Autowired
+	private UserRepository userRepository;
+	
+	
+	@Autowired
+	private BCryptPasswordEncoder passwordEncoder;
+
+	@Autowired
+	public void setUserRepository(UserRepository userRepository) {
+		this.userRepository = userRepository;
+		User user = new User();
+		user.setUsername("Jakob");
+		user.setPassword(passwordEncoder.encode("123"));
+		user.setResidence("Nynashamn");
+		userRepository.save(user);
+		
+		user = new User();
+		user.setUsername("Elena");
+		user.setPassword(passwordEncoder.encode("123"));
+		user.setResidence("Stockholm");
+		userRepository.save(user);
+		
+		user = new User();
+		user.setUsername("Anna");
+		user.setPassword(passwordEncoder.encode("123"));
+		user.setResidence("Uppsala");
+		userRepository.save(user);
+	}
+	
+	@Override
+	public void save(User user) {
+		user.setPassword(passwordEncoder.encode(user.getPassword()));
+		userRepository.save(user);
+	}
+
+	@Override
+	public void update(User user) {
+		userRepository.save(user);
+	}
+
+	@Override
+	public User find(String username) {
+		return userRepository.findByUsername(username);
+	}
+
+	@Override
+	public List<User> findAll() {
+		return userRepository.findAll();
+	}
+}

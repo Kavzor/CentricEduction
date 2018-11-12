@@ -16,3 +16,6 @@ A decent reference for know-how-and-when to use certain encryption methods in ja
 
 ## [Spring Security/H2/JPA](Code/SpringH2SecurityExample)
 The 4th meetings code, it's unfinished and will be worked on during our next session but feel free to finish it alone. Right now it's missing a way for the controller to register a new user, hint, use the userRepository and reroute the action on the form
+
+## [Spring Fullstack](Code/SpringFullStack)
+The final buddy finder code that will be released. The project contains a small piece from every session throughout the course along with technologies such as Spring MVC, Spring JPA, Spring REST and Vue.js.
